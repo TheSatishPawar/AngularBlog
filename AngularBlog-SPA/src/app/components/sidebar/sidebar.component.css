@@ -1,0 +1,72 @@
+.main-panel>.navbar {
+    margin-bottom: 0;
+}
+
+.navbar.navbar-transparent {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.navbar.navbar-absolute {
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    z-index: 1029;
+}
+
+.navbar.fixed-top {
+    border-radius: 0;
+}
+
+.navbar {
+    border: 0;
+    border-radius: 3px;
+    padding: 0.625rem 0;
+    /* margin-bottom: 20px; */
+    height: auto !important;
+    color: #555;
+    /* background-color: #fff !important; */
+    /* box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15); */
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+@media (min-width: 992px) .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.element::-webkit-input-placeholder {
+    color: blue;
+    font-weight: bold;
+}
+
+.element::-moz-placeholder {
+    color: blue;
+    font-weight: bold;
+}
+
+.element:-ms-input-placeholder {
+    color: blue;
+    font-weight: bold;
+} 
+
+.element:-o-input-placeholder {
+    color: blue;
+    font-weight: bold;
+} 
